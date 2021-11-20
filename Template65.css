@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0.5vw;
+    list-style-type: none;
+  }
+  
+  .left li {
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .span1 {
+    color: skyblue;
+    font-weight: bold;
+  }
+  
+  .span2 {
+    font-weight: bold;
+  }
+  
+  .right {
+    margin-left: 20vw;
+  }
+  
+  li {
+    padding: 1.5vw;
+    float: right;
+    font-family: Arial;
+  }
+  
+  .main {
+    background: url("images/banner.jpg");
+    height: 100%;
+    background-size: cover;
+    padding-top: 70vh;
+    padding-left: 20vw;
+  }
+  
+  ul li ul {
+    position: relative;
+    display: block;
+    padding: 0vw;
+  }
+  
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover {
+    background-color: green;
+  }
+  
+  .dropdown:hover .dropdown__content {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .box {
+    background-color: rgba(0,0,0,0.5);
+    width: 50vw;
+    padding: 2vw;
+    border: none;
+    border-top: solid 0.3vw rgb(78, 122, 12);
+  }
+  
+  .mainLine {
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 249, 250);
+  }
+  
+  p {
+    color: white;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .button a {
+    display: block;
+    font-family: Arial;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 8vw;
+    margin-left: 13vw;
+    background-color: transparent;
+    border: 0.2vw solid rgb(221, 241, 212);
+    border-radius: 0.5vw;
+  }
+  
+  i {
+    color: gray;
+  }
+  img{
+      margin-top: 100px;
+      margin-bottom:100px;
+      margin-right: 200px;
+      margin-left: 100px;
+
+  }
